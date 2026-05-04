@@ -1,0 +1,6 @@
+browser-use
+langchain-openai
+python-dotenv
+playwright
+playwright-stealth
+undetected-playwright

@@ -1,19 +1,21 @@
-# SMM Browser Agent API
+# Browser Agent API Prototype
 
 ![Project preview](docs/screenshots/preview.png)
 
-A prototype web interface for launching visible browser automation tasks through an AI agent.
+A small prototype for visible browser automation tasks. The stronger public version of this idea is now represented by [BROAGENTS Browser AI Runtime](https://github.com/KaimiEwl/broagents-browser-ai-runtime).
 
-## Demo
+## Portfolio Status
 
-- GitHub: https://github.com/KaimiEwl/smm-browser-agent-api
-- Live demo: not applicable for this project type
-- Video: planned
-- Case notes: see `docs/architecture.md`
+This repository is kept as a code archive, not as a featured portfolio project.
 
-## What it shows
+For the polished portfolio story, open:
 
-This project shows AI-agent orchestration, FastAPI routing, browser-use integration and Playwright-style automation concepts.
+- Portfolio: https://kaimiewl.github.io/
+- BROAGENTS: https://github.com/KaimiEwl/broagents-browser-ai-runtime
+
+## What It Shows
+
+This prototype shows FastAPI routing, browser-use integration and Playwright-style automation concepts.
 
 ## Features
 
@@ -23,17 +25,13 @@ This project shows AI-agent orchestration, FastAPI routing, browser-use integrat
 - Static/templates UI shell
 - OpenAI-backed agent execution
 
-## Tech stack
+## Stack
 
-- FastAPI
-- browser-use
-- LangChain OpenAI
-- Playwright
-- Jinja templates
+FastAPI, browser-use, LangChain OpenAI, Playwright, Jinja templates.
 
-## Local setup
+## Run Locally
 
-```
+```bash
 python -m venv .venv
 . .venv/Scripts/activate
 pip install -r requirements.txt
@@ -41,16 +39,12 @@ copy .env.example .env
 python main.py
 ```
 
-## Verification
+## Check
 
-```
+```bash
 python -m py_compile main.py
 ```
 
 ## Status
 
-Prototype export. API keys and local virtual environments are excluded.
-
-## Security and cleanup
-
-This public repository is a clean portfolio export. It intentionally excludes production secrets, local databases, logs, generated media, backups, runtime folders and private deployment artifacts.
+Archived prototype export. API keys, local virtual environments, browser state and logs are excluded.
